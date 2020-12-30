@@ -16,7 +16,7 @@ Demo project to use ajax in sinatra. In this example a table is displayed from a
 
 ## Row 2 Selected
 
-![row 1 selected](img/row_1_selected.png)
+![row 1 selected](img/row_2_selected.png)
 
 ## References
 
