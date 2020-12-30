@@ -1,0 +1,18 @@
+<table id="table1" class="table table-hover table-stripped table-dark">
+  <thead>
+    <tr>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+  <% table_data.each do |row|%>
+    <tr>
+    <td><%= row[0] %></td>
+      <td><%= row[1] %></td>
+      <td><%= row[2] %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
